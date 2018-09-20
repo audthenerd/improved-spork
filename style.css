@@ -1,0 +1,234 @@
+html, body, #board {
+	margin: 0;
+	height: 100%;
+	overflow: hidden
+}
+
+
+table {
+	border: 5px solid black;
+	position: fixed;
+	margin:5px 35px;
+	left: 475px;
+  top: 13px;
+}
+
+td {
+	border: 2px solid black;
+	width: 38px;
+	height: 38px;
+	background-color: green;
+	font-color: black;
+	font-size:15px;
+}
+
+#player-tiles {
+/*	border: 3px solid grey;*/
+	bottom: 0;
+	left: 540px;
+	width: 280px;
+	height: 110px;
+	margin: 5px 5px;
+
+}
+
+#player-one {
+
+	/*background-color: Gold;*/
+	 width: 300px;
+   position: absolute;
+   bottom: 30px;
+   left: 550px;
+ /*  height: 70px;*/
+}
+
+
+#player-two {
+/*	background-color: Gold;*/
+	width: 300px;
+   bottom: 30px;
+   left: 550px;
+   position: absolute;
+}
+
+
+
+
+#B-0, #B-1, #B-2, #B-3, #B-4, #B-5, #B-6 {
+	position:relative;
+	font-color: black;
+	font-weight: bold;
+	width: 35px;
+	height:35px;
+	text-align: center;
+}
+
+.the-butts {
+	position: relative;
+	height: 200px;
+	 top: 630px;
+   left: 840px;
+}
+.btn.btn-success {
+	text-align: center;
+	width: 100px;
+	margin: 3px 3px;
+	position: relative;
+}
+
+.btn.btn-danger {
+	text-align: center;
+	font-size: 100px
+	margin: 0 auto;
+	position: absolute;
+	width: 500px;
+	top: 50%;
+	left: 30%;
+	opacity: 1;
+}
+
+/*.btn.btn-info {
+	text-align: center;
+	width: 110px;
+	left: 480px;
+	margin: 3px 3px;
+	position: relative;
+	top: 1500px;
+
+}*/
+
+
+#side-bar {
+	background-image: url('images/yellow-wall.jpg');
+	border-right: 3px solid grey;
+	padding: 10px 10px;
+	width: 450px;
+	height: 1000px;
+	float:left;
+	position: absolute;
+	background-color: brown;
+}
+
+#middle {
+	display: inline-block;
+}
+
+.tile {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+}
+
+.container-fluid {
+	position: absolute;
+	background-color: powderblue;
+	height: 250px;
+	top: 250px;
+	z-index: 100;
+	opacity: .7;
+}
+
+.description {
+margin: 5px 5px;
+font-family: 'Comfortaa', cursive;
+font-size: 40px;
+}
+
+.current {
+	font-size: 30px;
+	margin-top: 30px;
+	padding-left: 10px;
+	height: 50px;
+	background-color: white;
+	border: 2px solid #dadada;
+   border-radius: 7px;
+}
+
+#show-turn{
+	font-color:grey;
+	font-size: 30px;
+	font-weight: bold;
+	height: 50px;
+	position: absolute;
+  top: 151px;
+  left: 216px;
+}
+
+#score-head {
+		width: 446px;
+    position: absolute;
+    height: 200px;
+    padding: 10px;
+    top: 243px;
+    background-image: url(images/chalkboard.jpg);
+    background-size: cover;
+    color: white;
+}
+
+#left {
+	font-weight: bold;
+	position: relative;
+	display: inline-block;
+	float:left;
+  top: -8px;
+  margin: 5px 20px;
+  color: white;
+}
+
+
+#right {
+	font-weight: bold;
+	position: relative;
+	display: inline-block;
+  top: -8px;
+  left: 99px;
+  margin: 5px 20px;
+  color:white;
+}
+
+
+#p1-box {
+	border: 2px dashed grey;
+	height: 70px;
+	width: 170px;
+  position: fixed;
+  top: 320px;
+  left: 10px;
+  text-align: center;
+  font-family: 'Zeyada', cursive;
+  font-size: 40px;
+    padding: 15px;
+    color: antiquewhite;
+}
+
+
+#p2-box {
+	border: 2px dashed grey;
+	height: 70px;
+	width: 170px;
+ 	position: fixed;
+  top: 320px;
+  left: 230px;
+  text-align: center;
+  font-family: 'Zeyada', cursive;
+    font-size: 40px;
+    padding: 15px;
+    color: antiquewhite;
+}
+
+.intro {
+	font-family: 'Give You Glory', cursive;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.to-start {
+	width: 600px;
+}
+
+.p1-head, .p2-head {
+	font-family: 'Zilla Slab Highlight', cursive;
+	font-size: 25px;
+}
+

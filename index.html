@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scrabble</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa|Give+You+Glory|Zilla+Slab|Zeyada|Zilla+Slab+Highlight" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div id="side-bar">
+        <h1 class="heading"></h1>
+
+        <div class="description">Welcome to
+
+    </div>
+
+    <div id="middle">
+        <img src="images/s.png" class="tile" transform="rotate(20deg)">
+        <img src="images/c.png" class="tile">
+        <img src="images/r.png" class="tile">
+        <img src="images/a.png" class="tile">
+        <img src="images/b.png" class="tile">
+        <img src="images/b.png" class="tile">
+        <img src="images/l.png" class="tile">
+        <img src="images/e.png" class="tile">
+    </div>
+
+
+
+     <div class="current">Current turn:</div>
+
+    <div id ="board">
+
+        <div class="the-butts">
+            <button type="button" class="btn btn-success">Submit</button>
+            <button type="button" class="btn btn-info">Next Player</button>
+            </div>
+
+        <div id="player-tiles">
+
+        </div>
+
+        <div id="score-board">
+            <div class="container-fluid">
+                <div class="intro">Click on "Start" to play! </div>
+                    <div class="to-start"> <button type="button" class="btn btn-danger">Start</button></div>
+            </div>
+            <h1 id="score-head">SCOREBOARD</h1>
+                <div id="left">Player One</div>
+                <div id="p1-box"></div>
+
+                <div id="right">Player Two</div>
+                <div id="p2-box"></div>
+
+        </div>
+
+    </div>
+    <script type="text/javascript" src="dom.js"></script>
+    <script type="text/javascript" src="dictionary.js"></script>
+  <script type="text/javascript" src="scrabble.js"></script>
+</body>
+</html>
